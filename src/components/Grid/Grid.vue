@@ -17,7 +17,7 @@
 <script>
 import { mapGetters } from "vuex";
 import Photo from "./Photo/Photo.vue";
-import Loading from "./Loading/Loading.vue";
+import Loading from "../Loading/Loading.vue";
 export default {
   name: "Grid",
   computed: mapGetters(["allImages", "status"]),
